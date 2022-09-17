@@ -253,15 +253,15 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
-
+.footer-googlemap:hover,
 .footer-googlemap:{
     color: var(--main-hover-color);
   }
-  
-  .footer-email:{
+  .footer-email:hover,
+  .footer-email:focus{
    color: var(--main-hover-color);
   }
- 
-  .footer-tel:{
+  .footer-tel:hover,
+  .footer-tel:focus{
    color:  var(--main-hover-color);
   }
