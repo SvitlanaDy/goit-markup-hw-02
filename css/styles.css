@@ -201,7 +201,7 @@ color: var(--Main-text-color);
 .examples{}
 .examples-items{}
 
-.examples-items{
+.about-button-examples{
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -209,26 +209,28 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
-cursor: pointer;
+background-color:var(--second-background-color);
 border-color: transparent;
 border-radius: 4px;
 }
 
 .about-button-examples:hover,
-.eabout-button-examples{
+.about-button-examples:focus{
  color: var(--main-white-color);
- background-color:var(--main-hover-color) ;}
+ background-color:var(--btn-cover-color);
+ cursor: pointer;
+ }
 
-.examples-list
-.examples-spots{
+.examples-list{}
+ 
+
+.examples-spots-titles{
+    color:var(--main-title-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-title-color);  
-}
-.examples-spots-titles{
-    color:var(--main-title-color)
+
 }
 .examples-spots-text{
 font-size: 16px;
